@@ -1,0 +1,23 @@
+{
+  "services": [
+    "Muse"
+  ],
+  "name": "com.factor_y.muse.activerse",
+  "title": "Activerse",
+  "description": "Activerse, improved activities",
+  "extensions": [
+	{
+    "name": "Activerse - Better activities. Verse style",
+    "type": "com.ibm.muse.ui",
+	  "path": "activities",
+      "payload": {
+			"match": {
+				"url":"activities"
+			},
+			"include-files": [ 
+				"pilot/activerse/intercept.user.js"
+			]
+	  }
+  }
+  ]
+}
